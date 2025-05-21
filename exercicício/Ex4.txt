@@ -1,0 +1,7 @@
+Comente para que servem as seguintes tags HTML:
+a) title > Define o titulo da aba no navegador
+b) div > Cria uma divisória, pode ser utilizado para separar um conteúdo para filtrar o uso do CSS por exemplo.
+c) ul e li > UL irá criar uma Lista não Numerada, LI sera o item da lista
+d) br > quebra de linha
+e) a >  adiciona um Link
+f) img > Adiciona uma imagem, seja arquivo OU o Link
