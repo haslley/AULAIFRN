@@ -1,0 +1,97 @@
+body{
+    font-family: sans-serif;
+    background-color: #202124;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+
+
+}
+
+.barra_cima{
+    width: auto;
+    height: 48px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 6px;
+}
+.Links_cima{
+    color: black;
+    font-size: 20px;
+    
+}
+
+.pesquisa{
+    width: 1005px;
+    height: 142px; 
+    gap: 50px;
+    margin: auto;
+    
+    
+    
+    
+
+}
+.barra_pesquisa{
+    margin-top: 30px;
+    width: 450px;
+    height: 30px;
+    background-color: #4d5156;
+    border-radius: 50px;
+    padding-left: 20px;
+    
+    
+}
+
+.input-text:focus{
+    color: #171717;
+    outline: none;
+    color: white;
+}
+
+.centro {
+    width: auto;
+    margin-top: 210px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bottun{
+    background-color: #303134; 
+    color: white;
+    padding: 10px;
+   border: ;
+    margin: 7px;
+   
+
+}
+.bottun:hover{
+   
+    
+    cursor: pointer;
+}
+
+.baixo{
+    width: auto;
+    height: 440px;
+
+}
+.barra_baixo{
+    background-color: #171717;
+    color: white;
+    
+}
+
+
+.flex_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

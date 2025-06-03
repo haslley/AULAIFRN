@@ -1,0 +1,101 @@
+body{
+background-color: #f2f4f7;
+font-family: sans-serif;
+display: flex;
+flex-direction: row;
+
+}
+
+h1{
+    color:#0866ff ;
+    font-size: 70px;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 20px; 
+/* gap é para fazer o espaçamento entre os elementos do FORM */
+
+}
+.p1 {
+    font-size: 30px;
+    text-align: justify;
+}
+
+
+.esquerda{
+    margin: auto;
+    height: 500px;
+    width:  700px;
+    
+}
+
+.esquerda div{
+    
+    color: black;
+
+}
+
+
+.direita{
+    
+    flex-direction: column;
+    width: 900px;
+    height: 900px;
+
+    
+}
+
+.login{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+
+
+.input-text {
+    width: 300px;
+    height: 50px;
+    padding-left: 12px;
+    border-radius: 13px;
+    border: 2px solid gainsboro;
+    
+}
+.input-text:focus{
+    border-color: #0891fc;
+    outline: none;
+}
+
+.input-text::placeholder {
+    color: gray;
+
+}
+
+
+
+
+.Entrar{
+
+    width: 300px;
+    height: 50px;   
+    border-radius: 7px;
+    background-color: #0866ff;
+    padding: 20px;
+    color: white;
+    
+}
+
+.esqueceu-a-senha{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-style: normal;
+}
