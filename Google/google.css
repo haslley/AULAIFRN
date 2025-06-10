@@ -74,7 +74,7 @@ a:hover{
 }
 .bottun:hover{
    
-    
+    border: solid, black, 1px;
     cursor: pointer;
 }
 
